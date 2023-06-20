@@ -1,0 +1,133 @@
+/********** MOBILE-FIRST WORKFLOW **********/
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* CUSTOM CSS PROPERTIES */
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+/* RESET BROWSER STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENT */
+html {
+    background-color: var(--very-light-gray);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 75px auto 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sedans-card {
+    background-color: var(--bright-orange);
+}
+
+.suvs-card {
+    background-color: var(--dark-cyan);
+}
+
+.luxury-card {
+    background-color: var(--very-dark-cyan);
+}
+
+.card-content {
+    padding: 20px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.card-content h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--very-light-gray);
+}
+
+.card-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--transparent-white);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+.button {
+    background-color: var(--very-light-gray);
+    font-family: "Lexend Deca", sans-serif;
+    width: 140px;
+    padding: 15px 5px;
+    border-radius: 30px;
+    border: none;
+    mix-blend-mode: screen;
+    border: 2px solid var(--very-light-gray);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* FOOTER */
+footer {
+    margin: 20px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* DESKTOP LAYOUT */
+@media only screen and (min-width: 1024px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin: auto;
+        width: 90%;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .button {
+        margin-top: 50px;
+    }
+}
