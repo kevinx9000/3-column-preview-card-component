@@ -1,5 +1,4 @@
 /********** MOBILE-FIRST WORKFLOW **********/
-
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
@@ -58,7 +57,7 @@ html {
     width: 50px;
 }
 
-.card-content h2 {
+.card-content .heading {
     font-family: "Big Shoulders Display", sans-serif;
     text-transform: uppercase;
     font-size: 40px;
@@ -71,7 +70,6 @@ html {
     color: var(--transparent-white);
     font-family: "Lexend Deca", sans-serif;
 }
-
 
 .button {
     background-color: var(--very-light-gray);
@@ -119,15 +117,16 @@ footer {
 
     .container {
         margin: auto;
-        width: 90%;
         max-width: 1024px;
-        display: flex;
         flex-direction: row;
-        border-radius: 10px;
-        overflow: hidden;
     }
 
     .button {
         margin-top: 50px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 30px;
     }
 }
