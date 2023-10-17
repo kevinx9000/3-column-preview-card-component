@@ -1,0 +1,118 @@
+/********** MOBILE-FIRST WORKFLOW **********/
+/* CUSTOM CSS PROPERTIES */
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+/* RESET BROWSER STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENT */
+body {
+    background-color: var(--very-light-gray);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 75px auto 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sedans-card {
+    background-color: var(--bright-orange);
+}
+
+.suvs-card {
+    background-color: var(--dark-cyan);
+}
+
+.luxury-card {
+    background-color: var(--very-dark-cyan);
+}
+
+.card-content {
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.heading {
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--very-light-gray);
+}
+
+.desc {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--transparent-white);
+    opacity: 0.8;
+}
+
+.button {
+    background-color: var(--very-light-gray);
+    font-family: inherit;
+    width: 140px;
+    padding: 15px 5px;
+    border-radius: 30px;
+    border: none;
+    mix-blend-mode: screen;
+    border: 2px solid var(--very-light-gray);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* FOOTER */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* DESKTOP LAYOUT */
+@media only screen and (min-width: 1024px) {
+    body {
+        height: 100vh;
+        display: grid;
+        place-content: center;
+    }
+
+    .container {
+        margin: auto;
+        max-width: 1024px;
+        flex-direction: row;
+    }
+
+    .button {
+        margin-top: 50px;
+    }
+}

@@ -6,12 +6,12 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Screenshot](#screenshot)
 
 ## Overview
 
@@ -22,16 +22,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
-![My Mobile Screenshot](/my-mobile-screenshot-375.png)
-![My Desktop Screenshot](/my-desktop-screenshot-1440.png)
-
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/kevinx9000/3-column-preview-card-component/)
-- Live Site URL: [Live site](https://kevinx9000.github.io/3-column-preview-card-component/)
+- Solution URL: [https://github.com/kevinx9000/3-column-preview-card-component/](https://github.com/kevinx9000/3-column-preview-card-component/)
+- Live Site URL: [https://kevinx9000.github.io/3-column-preview-card-component/](https://kevinx9000.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -49,4 +43,13 @@ I started with a desktop-first workflow because I'm typically more comfortable w
 ## Author
 
 - Frontend Mentor - [@kevinx9000](https://www.frontendmentor.io/profile/kevinx9000)
-- Twitter - [@KevHerrmann](https://www.twitter.com/KevHerrmann)
+- Portfolio site - [kevinherrmann.quest](https://kevinherrmann.quest)
+
+## Updates
+
+- 10.16.2023 -- revised and refactored
+
+## Screenshot
+
+![](my-screenshots/my-mobile-screenshot-375.png)
+![](my-screenshots/my-desktop-screenshot-1440.png)
